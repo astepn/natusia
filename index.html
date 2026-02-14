@@ -6,7 +6,7 @@
 </head>
 <body style="text-align:center; font-family:sans-serif; background:pink;">
 
-  <h1>dla natusi od alka :3</h1>
+  <h2>dla natusi od alka :3</h2>
   <p>bo jak coś to ja cie lubie...</p>
 
   <audio id="muzyka" loop>
@@ -40,7 +40,7 @@
     images.push(`images/${i}.jpg`);
   }
 
-  let index = 0;
+  let index = Math.floor(Math.random() * images.length);
   const img = document.getElementById("slideshow");
 
   setInterval(function() {
